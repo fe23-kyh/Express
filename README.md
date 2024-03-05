@@ -1,4 +1,6 @@
-# Express Bootcamp - Todo API
+# Express Bootcamp 
+
+## Övning 1: Todo API
 
 Du ska i denna övning bygga ett API för en todo-app. Det går bra i denna övning att spara dina todos i en array i en variabel.
 
@@ -59,3 +61,16 @@ Lägg på *pagination* på routen som hämtar alla Todos.
 **Exempel**
 
 Om det finns 50st todos (gud förbjude) i din array så ska routen som hämtar alla todos endast hämta de 10 senaste. Men med en query parameter ska man kunna välja nästa 10 todos.
+
+## Övning 2: Loginsida
+
+I denna övning ska du bygga ett API som ska kunna användas till inloggning och skapa ett konto.
+När man registrerar ett konto ska andvändaren ange användarnamn, lösenord och e-postadress. Det ska inte vara möjligt att registerera sig med ett användarnamn eller en e-postadress som redan finns. När en användare försöker logga in ska användarnamn och lösenord kontrolleras mot det som finns sparat.
+
+## Instruktioner
+1. Skapa två endpoints i din Node.JS - fil som heter **/api/login** och **/api/signup**.
+    * **/api/login** - tar användarnamn och lösenord som har skickats in och kollar om det finns samt är samma som i arrayen med användarkonton. Endpoint:en ska returnera ett objekt med egenskapen **success** som antingen är true eller false till klienten.
+
+    * **/api/signup** -  tar emot användarnamn, lösenord, och e-post och kontrollerar så att användarnamn och e-post inte redan finns. Endpoint:en ska returnera ett objekt med egenskaparna: **success**, **usernameExists** och **emailExists**. Alla egenskapar är antingen true eller false.
+      
+2. Allt kan sparas i en variabel på din server.
