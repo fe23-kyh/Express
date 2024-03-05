@@ -41,7 +41,7 @@ Method: `DELETE`
 
 #### Level up 1
 
-Lägg till fält på varje Todo Items som är när den skapades och när den uppdaterades. `createdAt`  läggs till på servern alltså skickas inte med i body. Tips! Använde date-objektet https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
+Lägg till fält på varje Todo Items som är när den skapades och när den uppdaterades. `createdAt`  läggs till på servern (skickas alltså inte med i body). Tips! Använde date-objektet https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
 
 ```js
 {
