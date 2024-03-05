@@ -1,6 +1,6 @@
 # Express Bootcamp - Todo API
 
-Du ska i denna övning bygga ett API för en todo-app. Du kan i denna övning spara din todos i en array i en variabel.
+Du ska i denna övning bygga ett API för en todo-app. Det går bra i denna övning att spara dina todos i en array i en variabel.
 
 Det ska kunna gå att:
 * Hämta alla todos
